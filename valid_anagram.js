@@ -10,7 +10,7 @@ An Anagram is a word or phrase formed by rearranging the letters of a different 
  */
 
 s="anagram"
-t="anagarm"
+t="garmana" 
 
 var isAnagram=function (s, t) {
   return s.split('').sort().join('') === t.split('').sort().join('')
